@@ -6,7 +6,7 @@ require('dotenv').config();
 
 const app = express();
 app.use(cors({
-    origin:'https://portfolio-website-two-gold-87.vercel.app/',
+    origin:'https://portfolio-website-two-gold-87.vercel.app',
     methods:['GET','POST'],
     credentials:true
 }));
