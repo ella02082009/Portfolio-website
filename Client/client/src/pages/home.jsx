@@ -77,7 +77,7 @@ export default function Home() {
             Full Stack Developer +<br />Graphics Designer
           </h1>
           <p className="text-gray-400 mt-6 max-w-lg text-lg">
-           I bridge the gap between code and design, building powerful<br/> powerful web applications and creative visual entities.
+           I bridge the gap between code and design, building powerful<br/>  web applications and creative visual entities.
           </p>
           <div className="flex gap-4 mt-10">
            <a 
