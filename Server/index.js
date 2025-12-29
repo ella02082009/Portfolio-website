@@ -5,7 +5,11 @@ const nodemailer = require('nodemailer');
 require('dotenv').config();
 
 const app = express();
-app.use(cors());
+app.use(cors({
+    origin:'https://portfolio-website-two-gold-87.vercel.app/',
+    methods:['GET','POST'],
+    credentials:true
+}));
 app.use(express.json());
 
 // MongoDB Connection
